@@ -1,14 +1,6 @@
 import { Inter } from "next/font/google";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
-import cognizant from "../public/Cognizant-Logo.png";
-import giz from "../public/giz.jpg";
-import web1 from "../public/codeeditor.png";
-import web2 from "../public/todo.png";
-import web3 from "../public/mbta.jpg";
-import web4 from "../public/event.png";
-import web5 from "../public/sentiment.jpg";
-import web6 from "../public/bank.jpeg";
 import { useState } from "react";
 import Image from "next/image";
 
