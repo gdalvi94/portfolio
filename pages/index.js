@@ -3,7 +3,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import cognizant from "../public/Cognizant-Logo.png";
 import giz from "../public/giz.jpg";
-import Emoji from "../public/gayatri.png";
 import web1 from "../public/codeeditor.png";
 import web2 from "../public/todo.png";
 import web3 from "../public/mbta.jpg";
@@ -143,10 +142,10 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={300}
+                  height={200}
                   layout="responsive"
-                  src={web1}
+                  src="/codeeditor.png"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -171,10 +170,10 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={300}
+                  height={200}
                   layout="responsive"
-                  src={web2}
+                  src="/todo.png"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -199,10 +198,10 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={300}
+                  height={200}
                   layout="responsive"
-                  src={web4}
+                  src="/event.png"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -229,10 +228,10 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={300}
+                  height={200}
                   layout="responsive"
-                  src={web3}
+                  src="/mbta.jpg"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-70 text-white rounded-lg">
                   <h3 className="text-center text-base ">
@@ -255,10 +254,10 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={300}
+                  height={200}
                   layout="responsive"
-                  src={web5}
+                  src="/sentiment.jpg"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -282,10 +281,10 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden">
                 <Image
                   className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={300}
+                  height={200}
                   layout="responsive"
-                  src={web6}
+                  src="/bank.jpeg"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -312,7 +311,12 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image className="mx-auto" src={cognizant} />
+              <Image
+                className="mx-auto"
+                src="/Cognizant-Logo.png"
+                width={200}
+                height={200}
+              />
               <h3 className="text-lg font-medium pt-4 pb-2">
                 Programmer Analyst Intern
               </h3>
@@ -337,11 +341,11 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image
                 className="mx-auto pt-2"
-                src={giz}
+                src="/giz.jpg"
                 width={100}
                 height={100}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
+              <h3 className="text-lg font-medium pt-6 pb-2 ">
                 Software Developer Intern
               </h3>
               <p className="text-justify py-1">
