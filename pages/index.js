@@ -3,7 +3,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import cognizant from "../public/Cognizant-Logo.png";
 import giz from "../public/giz.jpg";
-import Image from "next/image";
 import Emoji from "../public/gayatri.png";
 import web1 from "../public/codeeditor.png";
 import web2 from "../public/todo.png";
@@ -12,6 +11,7 @@ import web4 from "../public/event.png";
 import web5 from "../public/sentiment.jpg";
 import web6 from "../public/bank.jpeg";
 import { useState } from "react";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -76,7 +76,7 @@ export default function Home() {
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-5 overflow-hidden md:h-96 md:w-96">
             <Image
               className="border-gray-900"
-              src={Emoji}
+              src="/gayatri.png"
               layout="fill"
               objectFit="cover"
             />
