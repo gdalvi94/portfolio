@@ -1,5 +1,5 @@
 {
-  "homepage":"https://gdalvi94.github.io/Portfolio",
+  "homepage": "https://gdalvi94.github.io/portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,16 +9,16 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "npm run export",
-    "deploy": "gh-pages -d out",
+    "deploy": "next build && next export && gh-pages -d out",
     "lint": "next lint"
-
   },
   "dependencies": {
     "autoprefixer": "10.4.15",
-    "next": "13.4.19",
+    "next": "^13.4.19",
     "postcss": "8.4.28",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
