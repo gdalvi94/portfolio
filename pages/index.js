@@ -38,7 +38,7 @@ export default function Home() {
               Hi, I'm Gayatri
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Backend Developer
+              Full Stack Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
               Passionate about developing user-friendly interfaces and eager to
@@ -223,7 +223,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   layout="responsive"
-                  src="/mbta.jpg"
+                  src="https://gdalvi94.github.io/portfolio/mbta.jpg"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-70 text-white rounded-lg">
                   <h3 className="text-center text-base ">
