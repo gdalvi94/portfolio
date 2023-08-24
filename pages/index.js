@@ -38,7 +38,7 @@ export default function Home() {
               Hi, I'm Gayatri
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Full Stack Developer
+              Web Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
               Passionate about developing user-friendly interfaces and eager to
@@ -67,7 +67,7 @@ export default function Home() {
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-5 overflow-hidden md:h-96 md:w-96">
             <Image
               className="border-gray-900"
-              src="/gayatri.png"
+              src="https://gdalvi94.github.io/portfolio/gayatri.png"
               layout="fill"
               objectFit="cover"
             />
@@ -137,7 +137,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   layout="responsive"
-                  src="/codeeditor.png"
+                  src="https://gdalvi94.github.io/portfolio/codeeditor.png"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -165,7 +165,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   layout="responsive"
-                  src="/todo.png"
+                  src="https://gdalvi94.github.io/portfolio/todo.png"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -193,7 +193,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   layout="responsive"
-                  src="/event.png"
+                  src="https://gdalvi94.github.io/portfolio/event.png"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -249,7 +249,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   layout="responsive"
-                  src="/sentiment.jpg"
+                  src="https://gdalvi94.github.io/portfolio/sentiment.jpg"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -276,7 +276,7 @@ export default function Home() {
                   width={300}
                   height={200}
                   layout="responsive"
-                  src="/bank.jpeg"
+                  src="https://gdalvi94.github.io/portfolio/bank.jpeg"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 text-white rounded-lg">
                   <h3 className="text-center text-base">
@@ -290,7 +290,7 @@ export default function Home() {
                     href="https://github.com/gdalvi94/Easy_Bank"
                     className="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-300"
                   >
-                    GitHub{" "}
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -305,7 +305,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image
                 className="mx-auto"
-                src="/Cognizant-Logo.png"
+                src="https://gdalvi94.github.io/portfolio/Cognizant-Logo.png"
                 width={200}
                 height={200}
               />
@@ -333,7 +333,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image
                 className="mx-auto pt-2"
-                src="/giz.jpg"
+                src="https://gdalvi94.github.io/portfolio/giz.jpg"
                 width={100}
                 height={100}
               />
