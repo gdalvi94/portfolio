@@ -38,7 +38,7 @@ export default function Home() {
               Hi, I'm Gayatri
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Web Developer
+              Full Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
               Passionate about developing user-friendly interfaces and eager to
